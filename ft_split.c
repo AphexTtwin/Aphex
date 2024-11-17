@@ -91,19 +91,3 @@ char	**ft_split(char const *s, char c)
 	strs[j] = 0;
 	return (strs);
 }
-// int main(void)
-// {
-// 	size_t i = 0;
-// 	char *ok = "\\heelo\\myfriendniga\\";
-// 	char **res = ft_split(ok, '\\');
-
-// 	while (res[i] != NULL)
-// 	{
-// 		printf("%s\n", res[i]);
-// 		free(res[i]);
-// 		i++;
-// 	}
-// 	free(res);
-
-// 	return (0);
-// }
