@@ -38,8 +38,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * sign);
 }
-// int main()
-// {
-//     printf("%d\n", ft_atoi("++12q3"));
-//         printf("%d", atoi("++12q3"));
-// }
